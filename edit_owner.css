@@ -1,0 +1,17 @@
+h1{
+    color: #732824;
+    position: absolute;
+    left: 252px;
+    top: 170px;    
+  }
+  
+#rest_table{
+    position: absolute;
+    width: 216px;
+    height: 200px;
+    left: calc(50% - 216px/2 - 360px);
+    top: calc(50% - 200px/2 + 30.5px);
+    background: #FBDDCD;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+}

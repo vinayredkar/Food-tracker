@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  margin-top: 85px;
+}
+
+.card {
+  margin-right: 1%;
+}
+
+.content {
+  max-width: 100%;
+  display: inline-flexbox;
+  text-align: center;
+}
