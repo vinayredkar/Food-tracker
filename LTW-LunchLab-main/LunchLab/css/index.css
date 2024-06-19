@@ -1,0 +1,9 @@
+.card{
+    margin-right: 1%;
+}
+
+#restaurants_index{
+    max-width: 100%;
+    display: inline-flexbox;
+    text-align: center;
+}

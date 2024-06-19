@@ -1,0 +1,128 @@
+.banner {
+  width: 100%;
+  height: 228px;
+  top: 85px;
+  align-self: center;
+  object-fit: cover;
+}
+
+.rest_logo {
+  box-sizing: border-box;
+  border-radius: 50%;
+
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 83px;
+  top: 213px;
+
+  border: 4px solid #e78e44;
+}
+
+.fav_btn {
+  display: flex;
+  margin-left: auto;
+  top: 350px;
+}
+
+.info {
+  position: absolute;
+  width: 318px;
+  height: 85px;
+  left: 338px;
+  top: 342px;
+}
+
+.name_cat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.menu_nav {
+  width: 641px;
+  height: 37px;
+
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+
+  margin-bottom: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu_nav > p {
+  border-bottom: 2px solid #000000;
+}
+
+.menu_nav > #chosen {
+  font-weight: 600;
+  border-bottom: 3px solid #000000;
+}
+
+.content {
+  position: absolute;
+  top: 500px;
+}
+
+.review > p {
+  margin: 0px;
+}
+
+.review {
+  margin-top: 40px;
+}
+
+.reviews {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.response {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+form > .submit {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label {
+  position: relative;
+  font-size: 13pt;
+  color: #e78e44;
+  cursor: pointer;
+}
+
+.rating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.rating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
